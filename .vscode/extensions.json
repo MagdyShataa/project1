@@ -1,0 +1,24 @@
+{
+                "recommendations": [ "zignd.html-css-class-completion",
+                        "jgarabedian.pixel",
+                        "mrdemonwolf.font-awesome-5-codes-html",
+                        "lif3ng.page-playground-ext",
+                        "phoenisx.cssvar",
+                        "molab.chatgptplus",
+                        "aaron-bond.better-comments",
+                        "kuscamara.electron",
+                        "solnurkarim.html-to-css-autocompletion",
+                        "ritwickdey.liveserver",
+                        "tobiaswaelde.material-colors",
+                        "esbenp.prettier-vscode",
+                        "formulahendry.auto-close-tag",
+                        "formulahendry.auto-rename-tag",
+                        "ajanuw.mdn-search",
+                        "eg2.vscode-npm-script",
+                        "ibm.output-colorizer",
+                        "antiantisepticeye.vscode-color-picker",
+                        "bierner.color-info",
+                        "sporiley.css-auto-prefix",
+                        "svipas.prettier-plus"
+                        ]
+        }
