@@ -335,7 +335,7 @@ body {
 	background: none;
 	background: transparent;
 	min-height: 100vh;
-
+background: #ffffff;
 
 }
 
@@ -1612,32 +1612,33 @@ a {
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+	background: #ffffff;
 }
 
 
 #Contact article {
 	text-align: center;
-
+background: #ffffff;
 }
 
 
 
 #Contact header article h3 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.7em;
 	color: #ababab;
 }
 
 #Contact header article p {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.7em;
 	color: #5f6368;
 	font-weight: bold;
 
 }
 
 #Contact header {
-
+background: #ffffff;
 	text-align: start;
 	height: 100%;
 	width: auto;
@@ -1651,13 +1652,13 @@ a {
 	justify-items: normal;
 	height: 17%;
 	width: 100%;
-
+background: #ffffff;
 
 }
 
 
 #Contact header div span {
-	font-size: 2.6em;
+	font-size: 2.4em;
 	color: var(--primary);
 	background: transparent;
 	z-index: 2;
@@ -1695,13 +1696,17 @@ a {
 	margin-bottom: 0%;
 	font-size: 1.2em;
 	margin-left: 1%;
+	background: #ffffff;
 }
 
 #Contact header fieldset {
-	width: 100%;
+	width: 95%;
 	height: auto;
 	min-width: 22em;
 	min-height: 22em;
+	background: #ffffff;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 #Contact header label {
@@ -1736,12 +1741,160 @@ a {
 	color: var(--color-light);
 }
 
-@media (max-width: 35em) {
+@media screen and (max-width: 35em) {
 	#Contact {
 		display: grid;
 		grid-template-columns: 1fr;
 
 	}
+}
+
+@media screen and (max-width: 25em) and (min-width: 20em) {
+
+	#Contact {
+		display: grid;
+		grid-template-columns: auto;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 5%;
+		margin-bottom: 2%;
+		width: 100%;
+		background: none;
+		place-items: center;
+		background: #ffffff;
+
+
+
+	}
+
+
+	#Contact article {
+		text-align: center;
+		background: #ffffff;
+	}
+
+
+
+	#Contact header article h3 {
+		text-align: center;
+		font-size: 2em;
+		color: #ababab;
+	}
+
+	#Contact header article p {
+		text-align: center;
+		font-size: 2em;
+		color: #5f6368;
+		font-weight: bold;
+
+	}
+
+	#Contact header {
+		background: #ffffff;
+		text-align: center;
+		height: 100%;
+		width: 100%;
+
+	}
+
+	#Contact header div {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-items: center;
+		height: 17%;
+		width: 80%;
+		background: #ffffff;
+
+	}
+
+
+	#Contact header div span {
+		font-size: 2.6em;
+		color: var(--primary);
+		background: transparent;
+		z-index: 2;
+		font-weight: 900;
+
+		flex: 1;
+
+	}
+
+	#Contact header div ul {
+		flex: 3;
+		text-align: start;
+		font-size: 1.1em;
+		color: #000000;
+
+
+		border-bottom: #ffffff solid 1px;
+	}
+
+
+	#Contact header div ul li {
+		color: #ffffff;
+
+	}
+
+	#Contact header div ul li p {
+		color: black;
+		border-bottom: #c7c7c7 solid 1px;
+	}
+
+	#Contact header form {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		justify-items: normal;
+		height: auto;
+		margin-bottom: 0%;
+		font-size: 1.2em;
+		background: #ffffff;
+	}
+
+	#Contact header fieldset {
+		width: 80%;
+		height: auto;
+		min-width: 17em;
+		min-height: 10em;
+		text-align: start;
+		background: #ffffff;
+	}
+
+	#Contact header label {
+		text-align: start;
+		display: block;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+		color: var(--color-dark);
+	}
+
+
+	#Contact header input {
+		height: 3em;
+		padding-left: 2%;
+		width: 99%;
+	}
+
+	#Contact header input::before {
+		content: "";
+		width: 1em;
+		height: 1em;
+		border: 1px solid black;
+		display: inline-block;
+		border-radius: 50%;
+		margin-inline-end: 0.5em;
+	}
+
+	#Contact header input[type="radio"]:checked+label::before {
+		background: black;
+	}
+
+	#Contact header button {
+		padding: 4% 8%;
+		background: #ff214f;
+		color: var(--color-light);
+	}
+
 }
 
 /*-------<section id="#Contact">------*/
